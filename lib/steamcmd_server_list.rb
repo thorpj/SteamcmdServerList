@@ -8,14 +8,13 @@ class Scraper
   attr_accessor :games
 
 
-  def initialize
-    @url = "https://developer.valvesoftware.com/wiki/Dedicated_Servers_List"
+  def initialize(url)
+    @url = url
     document = HTTParty.get(@url)
     @page ||= Nokogiri::HTML(document)
     @table = @page.at('table')
     @games ||= []
     @headings ||= get_headings
-    process_table
   end
 
   def convert_heading(string)
@@ -68,6 +67,14 @@ class Scraper
   end
 end
 
-scraper = Scraper.new
-scraper.write_to_file('games.yaml', scraper.games)
-pp scraper.games
+config = YAML.load_file('config.yaml')
+scraper = Scraper.new(config['url'])
+scraper.process_table
+filename = config['output_filename']
+if filename
+  scraper.write_to_file(filename, scraper.games)
+end
+
+if config['output_stdout']
+  pp scraper.games
+end

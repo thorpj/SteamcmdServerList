@@ -1,0 +1,3 @@
+url: 'https://developer.valvesoftware.com/wiki/Dedicated_Servers_List'
+output_filename: 'games.yaml'
+output_stdout: True

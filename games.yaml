@@ -1,0 +1,827 @@
+---
+- :server: 7 Days to Die Dedicated Server
+  :id: '294420'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Assetto Corsa Dedicated Server
+  :id: '302550'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Age of Chivalry Dedicated Server
+  :id: '17515'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Alien Swarm Dedicated Server
+  :id: '635'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: ''
+  :notes: Windows version only.
+- :server: 'Alien Swarm: Reactive Drop Dedicated Server'
+  :id: '582400'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: ''
+  :notes: Windows version only. Can run on Linux using Wine.
+- :server: Aliens vs Predator Dedicated Server
+  :id: '34120'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: America's Army 3 Dedicated Server
+  :id: '13180'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: America's Army 3 Dedicated Server Beta
+  :id: '13160'
+  :steamcmd: ''
+  :steam_client: 'Yes'
+- :server: 'America''s Army: Proving Grounds Dedicated Server'
+  :id: '203300'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: 'ARK: Survival Evolved Dedicated Server'
+  :id: '376030'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'ARK: Survival of the Fittest Dedicated Server'
+  :id: '445400'
+  :steamcmd: 'Yes'
+- :server: ARMA 2 Dedicated Server
+  :id: '33905'
+  :steamcmd: ''
+  :steam_client: 'Yes'
+- :server: 'Arma 2: Operation Arrowhead Dedicated Server'
+  :id: '33935'
+  :steamcmd: ''
+  :steam_client: 'Yes'
+- :server: Arma 3 Dedicated Server
+  :id: '233780'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: ''
+  :notes: Game Purchase Required
+- :server: 'Black Mesa: Deathmatch  Dedicated Server'
+  :id: '346680'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Blade Symphony Dedicated Server
+  :id: '228780'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: ''
+  :notes: Game Purchase Required
+- :server: Breach Dedicated Server
+  :id: '72310'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: BrainBread 2 Dedicated Server
+  :id: '475370'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Brink Dedicated Server
+  :id: '72780'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: BlazeRush Dedicated Server
+  :id: '332850'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'Call of Duty: Modern Warfare 3 Dedicated Server'
+  :id: '42750'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: 'Chivalry: Deadliest Warrior Dedicated server'
+  :id: '258680'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: 'Chivalry: Medieval Warfare Dedicated Server'
+  :id: '220070'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Conan Exiles Dedicated Server
+  :id: '443030'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Contagion Dedicated Server
+  :id: '238430'
+  :steamcmd: 'Yes'
+- :server: Counter-Strike 1.6 Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Counter-Strike Global Offensive Dedicated Server
+  :id: '740'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+  :notes: Game Purchase Required for public server, Wiki page
+- :server: 'Counter-Strike: Condition Zero Dedicated Server'
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod czero"
+- :server: 'Counter-Strike: Source Dedicated Server'
+  :id: '232330'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: D.I.P.R.I.P. Dedicated Server
+  :id: '17535'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Dark Messiah of Might & Magic Dedicated Server
+  :id: '2145'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Darkest Hour Dedicated Server
+  :id: '1290'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Day of Defeat Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod dod"
+- :server: 'Day of Defeat: Source Dedicated Server'
+  :id: '232290'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Day of Infamy Dedicated Server
+  :id: '462310'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Deathmatch Classic Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod dmc"
+- :server: Dino D-Day Dedicated Server
+  :id: '70010'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Dayz Dedicated Server
+  :id: '223350'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Double Action Dedicated Server
+  :id: '317800'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Dystopia Dedicated Server
+  :id: '17585'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Eden Star Dedicated Server
+  :id: '419790'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: E.Y.E - Dedicated Server
+  :id: '91720'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Empires Dedicated Server
+  :id: '460040'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Eternal Silence Dedicated Server
+  :id: '17555'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Fistful of Frags Server
+  :id: '295230'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: The Forest Dedicated Server
+  :id: '556450'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+  :notes: Windows version only
+- :server: Fortress Forever Dedicated Server
+  :id: '329710'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Garry's Mod Dedicated Server
+  :id: '4020'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: GTR Evolution Demo Dedicated Server
+  :id: '8730'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: 'Half-Life 2: Deathmatch Dedicated Server'
+  :id: '232370'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: 'Half-Life Deathmatch: Source Dedicated server'
+  :id: '255470'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Half-Life Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'Half-Life: Opposing Force Dedicated Server'
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod gearbox"
+- :server: Homefront Dedicated Server
+  :id: '55280'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Hurtworld dedicated server
+  :id: '405100'
+  :steamcmd: 'Yes'
+  :steam_client: 'No'
+  :anonymous_login: 'Yes'
+  :notes: 'Bat file for server: Bat file'
+- :server: 'Insurgency: Sandstorm Dedicated Server'
+  :id: '581330'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Insurgency Dedicated Server
+  :id: '237410'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'Insurgency: Modern Infantry Combat Dedicated Server'
+  :id: '17705'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'Just Cause 2: Multiplayer Dedicated Server'
+  :id: '261140'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Killing Floor Beta Dedicated Server
+  :id: '1273'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Killing Floor Dedicated Server Windows
+  :id: '215350'
+  :steamcmd: 'Yes'
+- :server: Killing Floor 2 Dedicated Server Windows
+  :id: '232130'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Kingdoms Rise Dedicated Server
+  :id: '265360'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Lambda Wars Dedicated Server
+  :id: '319060'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Left 4 Dead 2 Dedicated Server
+  :id: '222860'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Left 4 Dead Dedicated Server
+  :id: '222840'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'Life is Feudal: Your Own Dedicated Server'
+  :id: '320850'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Mare Nostrum Dedicated Server
+  :id: ''
+  :steamcmd: ''
+  :steam_client: 'Yes'
+- :server: Monday Night Combat Dedicated Server
+  :id: '63220'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Natural Selection 2 Dedicated Server
+  :id: '4940'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Nexuiz Dedicated Server
+  :id: '96810'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: No More Room in Hell Dedicated Server
+  :id: '317670'
+  :steamcmd: 'Yes'
+- :server: NEOTOKYO Dedicated Server
+  :id: '313600'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: 'NS2: Combat Dedicated Server'
+  :id: '313900'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Nuclear Dawn Dedicated Server
+  :id: '111710'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Out of Reach Dedicated Server
+  :id: '406800'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: Install guide
+- :server: Painkiller Hell & Damnation Dedicated Server
+  :id: '230030'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Pirates, Vikings, and Knights II Dedicated Server
+  :id: '17575'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Primal Carnage Dedicated Server
+  :id: '224620'
+  :steamcmd: 'Yes'
+- :server: Project Zomboid Dedicated Server
+  :id: '108600'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: ''
+  :notes: Game Purchase Required
+- :server: RACE 07 Demo - Crowne Plaza Edition Dedicated Server
+  :id: '8680'
+  :steamcmd: 'Yes'
+- :server: RACE 07 Demo Dedicated Server
+  :id: '4270'
+  :steamcmd: 'Yes'
+- :server: 'RACE On - Demo: Dedicated Server'
+  :id: '8770'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Ravaged Dedicated Server
+  :id: '223160'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Red Orchestra 2 Dedicated Server
+  :id: '212542'
+  :steamcmd: 'Yes'
+- :server: Red Orchestra Windows Dedicated Server
+  :id: '223240'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Reflex Dedicated Server
+  :id: '329740'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Reign Of Kings Dedicated Server
+  :id: '381690'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Ricochet Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod ricochet"
+- :server: Rust Dedicated Server
+  :id: '258550'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: "** Not Working on Linux with SteamCMD**"
+- :server: Sven Co-op Dedicated Server
+  :id: '276060'
+  :steamcmd: 'Yes'
+- :server: Serious Sam 3 Dedicated Server
+  :id: '41080'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Serious Sam HD Dedicated Server
+  :id: '41005'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: 'Serious Sam Classics: Revolution Dedicated Server'
+  :id: '41005'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: 'Serious Sam HD: The Second Encounter Dedicated Server'
+  :id: '299310'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Sniper Elite 3 Dedicated Server
+  :id: '266910'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Sniper Elite V2 Dedicated Server
+  :id: '208050'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Source SDK Base 2006 MP Dedicated Server
+  :id: '205'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+  :notes: Bug:Linux files missing
+- :server: Source 2007 Dedicated Server
+  :id: '310'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Source Dedicated Server
+  :id: '205'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Source SDK Base 2013 Dedicated Server
+  :id: '244310'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Space Engineers Dedicated Server
+  :id: '298740'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Squad Dedicated Server
+  :id: '403240'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Starbound Dedicated server
+  :id: '211820'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: ''
+  :notes: Game Purchase Required
+- :server: Starvoid Dedicated Server
+  :id: '210370'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: ''
+  :notes: Game Purchase Required
+- :server: STCC - The Game Demo Dedicated Server
+  :id: '8710'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Synergy Dedicated Server
+  :id: '17525'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'Takedown: Red Sabre Dedicated Server'
+  :id: '261020'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Team Fortress 2 Dedicated Server
+  :id: '232250'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Team Fortress Classic dedicated server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod tfc"
+- :server: 'The Haunted: Hells Reach Dedicated Server'
+  :id: '43210'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Tower Unite Dedicated server
+  :id: '439660'
+  :steamcmd: 'Yes'
+  :steam_client: 'No'
+  :anonymous_login: 'Yes'
+  :notes: 'Official Guide: Dedicated server guide'
+- :server: The Ship Dedicated Server
+  :id: '2403'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Zombie Panic Source Dedicated Server
+  :id: '17505'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Zombie Grinder Dedicated Server
+  :id: '374980'
+  :steamcmd: 'Yes'
+- :server: 7 Days to Die Dedicated Server
+  :id: '294420'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: ''
+  :notes: Game purchase required
+- :server: 'ARK: Survival Evolved Dedicated Server'
+  :id: '376030'
+  :steamcmd: 'Yes'
+- :server: Arma 3 Dedicated Server
+  :id: '233780'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: 'Black Mesa: Deathmatch  Dedicated Server'
+  :id: '346680'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: BrainBread 2 Dedicated Server
+  :id: '346330'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: ''
+  :notes: Wiki page
+- :server: Blade Symphony Dedicated Server
+  :id: '228780'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'No'
+  :notes: Game Purchase Required
+- :server: BlazeRush Dedicated Server
+  :id: '332850'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Counter-Strike Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Counter-Strike Global Offensive Dedicated Server
+  :id: '740'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: Game Purchase Required for public server
+- :server: 'Counter-Strike: Condition Zero Dedicated Server'
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod czero"
+- :server: 'Counter-Strike: Source Dedicated Server'
+  :id: '232330'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Chivalry Medieval Warfare Dedicated Server
+  :id: '220070'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'Dark Horizons: Mechanized Corps Dedicated Server'
+  :id: '312070'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Day of Defeat Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod dod"
+- :server: 'Day of Defeat: Source Dedicated Server'
+  :id: '232290'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Day of Infamy Dedicated Server
+  :id: '462310'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Deathmatch Classic Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod dmc"
+- :server: Dota 2 Dedicated Server
+  :id: '570'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'No'
+- :server: Don't Starve Together Dedicated Server
+  :id: '343050'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Fistful of Frags Server
+  :id: '295230'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Garry's Mod Dedicated Server
+  :id: '4020'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: 'Half-Life 2: Deathmatch Dedicated Server'
+  :id: '232370'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Hurtworld dedicated server
+  :id: '405100'
+  :steamcmd: 'Yes'
+  :steam_client: 'No'
+  :anonymous_login: 'Yes'
+  :notes: 'Bat file for server: Bat file'
+- :server: 'Half-Life Deathmatch: Source Dedicated server'
+  :id: '255470'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Half-Life Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+  :notes: Wiki page
+- :server: 'Half-Life: Opposing Force  Server'
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod gearbox"
+- :server: Insurgency 2014 Dedicated Server
+  :id: '237410'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'Insurgency: Modern Infantry Combat Dedicated Server'
+  :id: '17705'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: 'Just Cause 2: Multiplayer - Dedicated Server'
+  :id: '261140'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Killing Floor Dedicated Server - Linux
+  :id: '215360'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Left 4 Dead 2 Dedicated Server
+  :id: '222860'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Left 4 Dead Dedicated Server
+  :id: '222840'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Natural Selection 2 Dedicated Server
+  :id: '4940'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: 'NS2: Combat Dedicated Server'
+  :id: '313900'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: No More Room In Hell Dedicated Server
+  :id: '317670'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: ''
+  :notes: Official Page
+- :server: "[Out of Reach Dedicated Server"
+  :id: '406800'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Pirates, Vikings, and Knights II Dedicated Server
+  :id: '17575'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Project Zomboid Dedicated Server
+  :id: '108600'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: ''
+  :notes: Game Purchase Required
+- :server: Red Orchestra Linux Dedicated Server
+  :id: '223250'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Ricochet Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod ricochet"
+- :server: Rust Dedicated Server
+  :id: '258550'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Serious Sam 3 Dedicated Server
+  :id: '41080'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Sven Co-op Dedicated Server
+  :id: '276060'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: ''
+  :notes: 'Note: for ubuntu server install apt-get install libssl1.0.0:i386 & for
+    Debian:dpkg --add-architecture i386 apt-get install libstdc++6:i386 libssl1.0.0:i386'
+- :server: Source SDK Base 2006 MP Dedicated Server
+  :id: '205'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+  :notes: Bug:Linux files missing
+- :server: Source 2007 Dedicated Server
+  :id: '310'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Source Dedicated Server
+  :id: '205'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Source SDK Base 2013 Dedicated Server
+  :id: '244310'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+- :server: Squad Dedicated Server
+  :id: '403240'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
+  :notes: Official Page
+- :server: Starbound Dedicated server
+  :id: '211820'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: ''
+  :notes: Game Purchase Required
+- :server: Team Fortress 2 Dedicated Server
+  :id: '232250'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+- :server: Team Fortress Classic Dedicated Server
+  :id: '90'
+  :steamcmd: 'Yes'
+  :steam_client: ''
+  :anonymous_login: 'Yes'
+  :notes: +app_set_config "90 mod tfc"
+- :server: The Ship Dedicated Server
+  :id: '2403'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Tower Unite Dedicated Server
+  :id: '439660'
+  :steamcmd: 'Yes'
+  :steam_client: 'No'
+  :anonymous_login: 'Yes'
+- :server: Terraria Dedicated Server
+  :id: '105600'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Unturned Dedicated Server
+  :id: '304930'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+- :server: Zombie Panic Source Dedicated Server
+  :id: '17505'
+  :steamcmd: 'Yes'
+  :steam_client: 'Yes'
+  :anonymous_login: 'Yes'
