@@ -9,7 +9,8 @@ class Scraper
 
 
   def initialize
-    document = HTTParty.get("https://developer.valvesoftware.com/wiki/Dedicated_Servers_List")
+    @url = "https://developer.valvesoftware.com/wiki/Dedicated_Servers_List"
+    document = HTTParty.get(@url)
     @page ||= Nokogiri::HTML(document)
     @table = @page.at('table')
     @games ||= []
@@ -68,4 +69,5 @@ class Scraper
 end
 
 scraper = Scraper.new
-scraper.write_to_file('games.txt', scraper.games)
+scraper.write_to_file('games.yaml', scraper.games)
+pp scraper.games
