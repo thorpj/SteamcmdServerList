@@ -7,5 +7,7 @@ Pulls data from https://developer.valvesoftware.com/wiki/Dedicated_Servers_List 
 Edit `config.yaml`
 
 url: shouldn't be changed
+
 output_filename: filename to write games to
+
 output_stdout: boolean to determine if games is written to stdout
