@@ -1,4 +1,3 @@
-require_relative 'SteamcmdServerList/version'
 
 module SteamcmdServerList
 
