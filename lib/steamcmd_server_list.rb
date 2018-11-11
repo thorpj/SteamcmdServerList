@@ -1,4 +1,4 @@
-module steamcmd_server_list
+module SteamcmdServerList
   require 'httparty'
   require 'nokogiri'
   require 'active_support/inflector'
