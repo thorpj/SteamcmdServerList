@@ -3,8 +3,8 @@ lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "steamcmd_server_list"
-  spec.version       = '0.1.1'
+  spec.name          = "SteamcmdServerList"
+  spec.version       = '0.1.2'
   spec.authors       = ["Joe Thorpe"]
   spec.email         = ["thorpejoe4@gmail.com"]
 
