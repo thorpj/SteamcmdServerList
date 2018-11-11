@@ -1,8 +1,12 @@
+require_relative 'SteamcmdServerList/version'
+
 module SteamcmdServerList
+
   require 'httparty'
   require 'nokogiri'
   require 'active_support/inflector'
   require 'yaml'
+
 
   class Scraper
     include ActiveSupport::Inflector
