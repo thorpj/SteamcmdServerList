@@ -14,13 +14,18 @@ module SteamcmdServerList
 
 
     def initialize(url)
+      config = YAML.load_file('config.yaml')
+
       @url = url
-      document = HTTParty.get(@url)
+      document = HTTParty.get(config['url'])
       @page ||= Nokogiri::HTML(document)
       @table = @page.at('table')
       @games ||= []
       @headings ||= get_headings
+      scraper.process_table
+
     end
+
 
     def convert_heading(string)
       string.strip.downcase.parameterize.underscore.to_sym
@@ -70,17 +75,16 @@ module SteamcmdServerList
 
       end
     end
-  end
 
-  config = YAML.load_file('config.yaml')
-  scraper = Scraper.new(config['url'])
-  scraper.process_table
-  filename = config['output_filename']
-  if filename
-    scraper.write_to_file(filename, scraper.games)
-  end
+    def find_id(name)
+      found = {}
+      games.each do |game|
+        if game['server'] == name.lower() and !(found)
+          found = game
+        end
+      end
+      found
+    end
 
-  if config['output_stdout']
-    pp scraper.games
   end
 end
